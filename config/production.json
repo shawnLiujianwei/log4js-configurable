@@ -14,7 +14,7 @@
                 },
                 {
                     "type": "logLevelFilter",
-                    "level": "WARN",         // Include warn and error logs.
+                    "level": "WARN",
                     "appender": {
                         "type": "dateFile",
                         "filename": "warn-error.log",

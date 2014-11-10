@@ -1,6 +1,6 @@
 {
   "name": "node-config-logger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./lib/log.js",
   "dependencies": {
     "config": "^1.7.0",

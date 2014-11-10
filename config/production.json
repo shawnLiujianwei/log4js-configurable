@@ -1,0 +1,34 @@
+{
+    "nodeLog": {
+        "configuration":{
+            "appenders": [
+                {
+                    "type": "console"
+                },
+                {
+                    "type": "dateFile",
+                    "filename": "output.log",
+                    "pattern": "-yyyy-MM-dd",
+                    "alwaysIncludePattern": true,
+                    "backups": 10
+                },
+                {
+                    "type": "logLevelFilter",
+                    "level": "WARN",         // Include warn and error logs.
+                    "appender": {
+                        "type": "dateFile",
+                        "filename": "warn-error.log",
+                        "pattern": "-yyyy-MM-dd",
+                        "alwaysIncludePattern": true,
+                        "backups": 10,
+                        "level": "debug"
+                    }
+                }
+            ],
+            "levels":{
+                "[all]":"info"
+            },
+            "replaceConsole": true
+        }
+    }
+}

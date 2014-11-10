@@ -1,0 +1,16 @@
+{
+  "name": "node-log",
+  "version": "0.0.1",
+  "main": "./lib/log.js",
+  "dependencies": {
+    "config": "^1.7.0",
+    "log4js": "^0.6.21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:shawnLiujianwei/node-log.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shawnLiujianwei/node-log/issues"
+  }
+}

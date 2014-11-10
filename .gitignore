@@ -1,0 +1,12 @@
+
+# NetBeans
+nbproject
+
+# Node
+node_modules
+npm-debug.log
+
+.idea
+config/runtime.json
+.runtime
+

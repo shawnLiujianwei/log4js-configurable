@@ -1,0 +1,15 @@
+{
+    "nodeLog": {
+        "configuration":{
+            "appenders": [
+                {
+                    "type": "console"
+                }
+            ],
+            "levels":{
+                "[all]":"debug"
+            },
+            "replaceConsole": true
+        }
+    }
+}

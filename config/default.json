@@ -1,15 +1,20 @@
 {
-    "nodeLog": {
-        "configuration":{
-            "appenders": [
-                {
-                    "type": "console"
-                }
-            ],
-            "levels":{
-                "[all]":"debug"
-            },
-            "replaceConsole": true
+  "logConfig": {
+    "appenders": {
+      "out": {
+        "type": "stdout",
+        "layout": {
+          "type": "colored"
         }
+      }
+    },
+    "categories": {
+      "default": {
+        "appenders": [
+          "out"
+        ],
+        "level": "debug"
+      }
     }
+  }
 }

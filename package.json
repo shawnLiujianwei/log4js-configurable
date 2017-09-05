@@ -1,17 +1,20 @@
 {
-  "name": "node-config-logger",
-  "version": "0.0.2",
+  "name": "log4js-configurable",
+  "version": "0.0.1",
   "main": "./lib/log.js",
   "dependencies": {
-    "config": "^1.7.0",
-    "log4js": "^0.6.21"
+    "config": "^1.26.2",
+    "log4js": "^2.3.3"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:shawnLiujianwei/node-log.git"
+    "url": "git@github.com:shawnLiujianwei/log4js-configurable.git"
   },
   "bugs": {
-    "url": "https://github.com/shawnLiujianwei/node-log/issues"
+    "url": "https://github.com/shawnLiujianwei/log4js-configurable.git/issues"
   },
-  "private":false
+  "private": false,
+  "devDependencies": {
+    "mocha": "^3.5.0"
+  }
 }
